@@ -1,0 +1,9 @@
+C:\Users\bersot\Desktop\FindSurf\FindSurf.Domain.Infra\bin\Debug\netstandard2.0\FindSurf.Domain.Infra.deps.json
+C:\Users\bersot\Desktop\FindSurf\FindSurf.Domain.Infra\bin\Debug\netstandard2.0\FindSurf.Domain.Infra.dll
+C:\Users\bersot\Desktop\FindSurf\FindSurf.Domain.Infra\bin\Debug\netstandard2.0\FindSurf.Domain.Infra.pdb
+C:\Users\bersot\Desktop\FindSurf\FindSurf.Domain.Infra\obj\Debug\netstandard2.0\FindSurf.Domain.Infra.csprojAssemblyReference.cache
+C:\Users\bersot\Desktop\FindSurf\FindSurf.Domain.Infra\obj\Debug\netstandard2.0\FindSurf.Domain.Infra.csproj.CoreCompileInputs.cache
+C:\Users\bersot\Desktop\FindSurf\FindSurf.Domain.Infra\obj\Debug\netstandard2.0\FindSurf.Domain.Infra.AssemblyInfoInputs.cache
+C:\Users\bersot\Desktop\FindSurf\FindSurf.Domain.Infra\obj\Debug\netstandard2.0\FindSurf.Domain.Infra.AssemblyInfo.cs
+C:\Users\bersot\Desktop\FindSurf\FindSurf.Domain.Infra\obj\Debug\netstandard2.0\FindSurf.Domain.Infra.dll
+C:\Users\bersot\Desktop\FindSurf\FindSurf.Domain.Infra\obj\Debug\netstandard2.0\FindSurf.Domain.Infra.pdb

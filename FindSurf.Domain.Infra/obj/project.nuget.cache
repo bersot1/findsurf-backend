@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "rGXq5t2PgIy9lDKbIiRweuJc5EHP52gXP3k0Vjx3JcP+uopb78SHdaTnBkwy53Kxrm1Pd8RYJzwcyWZO+YNE/A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\bersot\\Desktop\\FindSurf\\FindSurf.Domain.Infra\\FindSurf.Domain.Infra.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\bersot\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\bersot\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
