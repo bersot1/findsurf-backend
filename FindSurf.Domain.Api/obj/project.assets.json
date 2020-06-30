@@ -1,26 +1,92 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "Flunt/1.0.5": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Flunt.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Flunt.dll": {}
+        }
+      },
+      "FindSurf.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Flunt": "1.0.5"
+        },
+        "compile": {
+          "bin/placeholder/FindSurf.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FindSurf.Domain.dll": {}
+        }
+      },
+      "FindSurf.Domain.Infra/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "FindSurf.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/FindSurf.Domain.Infra.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FindSurf.Domain.Infra.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Flunt/1.0.5": {
+      "sha512": "2p1B/LLsMf0bGwyMQK48/278OXTodXn3HyTU1v7fr/x0bNfrVSNC1Do1PxbgiOlDLChtAbtt1kPgXFqUnGAagg==",
+      "type": "package",
+      "path": "flunt/1.0.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "flunt.1.0.5.nupkg.sha512",
+        "flunt.nuspec",
+        "lib/netstandard2.0/Flunt.dll"
+      ]
+    },
+    "FindSurf.Domain/1.0.0": {
+      "type": "project",
+      "path": "../FindSurf.Domain/FindSurf.Domain.csproj",
+      "msbuildProject": "../FindSurf.Domain/FindSurf.Domain.csproj"
+    },
+    "FindSurf.Domain.Infra/1.0.0": {
+      "type": "project",
+      "path": "../FindSurf.Domain.Infra/FindSurf.Domain.Infra.csproj",
+      "msbuildProject": "../FindSurf.Domain.Infra/FindSurf.Domain.Infra.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "FindSurf.Domain >= 1.0.0",
+      "FindSurf.Domain.Infra >= 1.0.0"
+    ]
   },
   "packageFolders": {
-    "C:\\Users\\bersot\\.nuget\\packages\\": {}
+    "C:\\Users\\Lucas Bersot\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\bersot\\Desktop\\FindSurf\\FindSurf.Domain.Api\\FindSurf.Domain.Api.csproj",
+      "projectUniqueName": "C:\\projetos\\findsurf-backend\\FindSurf.Domain.Api\\FindSurf.Domain.Api.csproj",
       "projectName": "FindSurf.Domain.Api",
-      "projectPath": "C:\\Users\\bersot\\Desktop\\FindSurf\\FindSurf.Domain.Api\\FindSurf.Domain.Api.csproj",
-      "packagesPath": "C:\\Users\\bersot\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\bersot\\Desktop\\FindSurf\\FindSurf.Domain.Api\\obj\\",
+      "projectPath": "C:\\projetos\\findsurf-backend\\FindSurf.Domain.Api\\FindSurf.Domain.Api.csproj",
+      "packagesPath": "C:\\Users\\Lucas Bersot\\.nuget\\packages\\",
+      "outputPath": "C:\\projetos\\findsurf-backend\\FindSurf.Domain.Api\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\bersot\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Lucas Bersot\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -32,7 +98,14 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\projetos\\findsurf-backend\\FindSurf.Domain.Infra\\FindSurf.Domain.Infra.csproj": {
+              "projectPath": "C:\\projetos\\findsurf-backend\\FindSurf.Domain.Infra\\FindSurf.Domain.Infra.csproj"
+            },
+            "C:\\projetos\\findsurf-backend\\FindSurf.Domain\\FindSurf.Domain.csproj": {
+              "projectPath": "C:\\projetos\\findsurf-backend\\FindSurf.Domain\\FindSurf.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -53,6 +126,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[3.1.2, 3.1.2]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -61,7 +140,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
       }
     }
   }

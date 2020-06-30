@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "rGXq5t2PgIy9lDKbIiRweuJc5EHP52gXP3k0Vjx3JcP+uopb78SHdaTnBkwy53Kxrm1Pd8RYJzwcyWZO+YNE/A==",
+  "dgSpecHash": "qg10wlGpIG9dJcUgVnIEqW4QEz9eztROzs1f51DJTLOo+alFv6Q7r/igB+ZI8r677UNxy2kPOQWdsyD186pz4w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\bersot\\Desktop\\FindSurf\\FindSurf.Domain.Infra\\FindSurf.Domain.Infra.csproj",
+  "projectFilePath": "C:\\projetos\\findsurf-backend\\FindSurf.Domain.Infra\\FindSurf.Domain.Infra.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\bersot\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\bersot\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\Lucas Bersot\\.nuget\\packages\\flunt\\1.0.5\\flunt.1.0.5.nupkg.sha512",
+    "C:\\Users\\Lucas Bersot\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Lucas Bersot\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
   ],
   "logs": []
 }
