@@ -7,3 +7,9 @@ C:\Users\bersot\Desktop\FindSurf\FindSurf.Domain\obj\Debug\netstandard2.0\FindSu
 C:\Users\bersot\Desktop\FindSurf\FindSurf.Domain\obj\Debug\netstandard2.0\FindSurf.Domain.AssemblyInfo.cs
 C:\Users\bersot\Desktop\FindSurf\FindSurf.Domain\obj\Debug\netstandard2.0\FindSurf.Domain.dll
 C:\Users\bersot\Desktop\FindSurf\FindSurf.Domain\obj\Debug\netstandard2.0\FindSurf.Domain.pdb
+C:\projetos\findsurf-backend\FindSurf.Domain\obj\Debug\netstandard2.0\FindSurf.Domain.csprojAssemblyReference.cache
+C:\projetos\findsurf-backend\FindSurf.Domain\obj\Debug\netstandard2.0\FindSurf.Domain.AssemblyInfoInputs.cache
+C:\projetos\findsurf-backend\FindSurf.Domain\obj\Debug\netstandard2.0\FindSurf.Domain.AssemblyInfo.cs
+C:\projetos\findsurf-backend\FindSurf.Domain\obj\Debug\netstandard2.0\FindSurf.Domain.csproj.CoreCompileInputs.cache
+C:\projetos\findsurf-backend\FindSurf.Domain\obj\Debug\netstandard2.0\FindSurf.Domain.dll
+C:\projetos\findsurf-backend\FindSurf.Domain\obj\Debug\netstandard2.0\FindSurf.Domain.pdb

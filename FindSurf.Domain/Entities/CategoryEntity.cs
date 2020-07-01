@@ -4,9 +4,9 @@ using System.Text;
 
 namespace FindSurf.Domain.Entities
 {
-    class Category : Entity
+    public class CategoryEntity : Entity
     {
-        public Category(string name)
+        public CategoryEntity(string name)
         {
             Name = name;
         }

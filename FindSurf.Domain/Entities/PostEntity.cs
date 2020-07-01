@@ -5,9 +5,9 @@ using System.Text;
 
 namespace FindSurf.Domain.Entities
 {
-    class Post : Entity
+    public class PostEntity : Entity
     {
-        public Post(
+        public PostEntity(
             string urlImage,
             string title, 
             string description, 
@@ -15,11 +15,11 @@ namespace FindSurf.Domain.Entities
             string cityAddress, 
             string phone, 
             Guid idCategory, 
-            Category category, 
+            CategoryEntity category, 
             StatusEnum status, 
             StateProductEnum productState, 
             Guid idCriador, 
-            User criador)
+            UserEntity criador)
         {
             UrlImage = urlImage;
             Title = title;
@@ -48,7 +48,7 @@ namespace FindSurf.Domain.Entities
 
         public Guid IdCategory { get; private set; }
 
-        public Category Category { get; private set; }
+        public CategoryEntity Category { get; private set; }
 
         public StatusEnum Status { get; private set; }
 
@@ -56,7 +56,7 @@ namespace FindSurf.Domain.Entities
 
         public Guid IdCriador { get; private set; }
 
-        public User Criador { get; private set; }
+        public UserEntity Criador { get; private set; }
 
         public void changeStatus(StatusEnum newStatus)
         {
